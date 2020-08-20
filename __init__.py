@@ -116,6 +116,7 @@ class BB_OT_RadialArray(bpy.types.Operator):
             # set location
             empties[0].location = obVectors.location
             empties[1].location = copyOb.location
+            empties[2].location = obVectors.location
             # setup array modifier
             array_modifier = copyOb.modifiers.new('Radial Array', 'ARRAY')
             array_modifier.use_relative_offset = False
