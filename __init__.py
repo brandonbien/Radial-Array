@@ -2,7 +2,7 @@ import bpy
 from math import pi
 from mathutils import Matrix
 bl_info = {
-    "name": "Radial Array Maker",
+    "name": "Radial Array Around Cursor",
     "author": "Brandon Bien",
     "version": (1, 0),
     "blender": (2, 80, 0),
@@ -10,7 +10,7 @@ bl_info = {
     "description": "Radial Array Around Cursor",
     "warning": "",
     "doc_url": "",
-    "category": "Add Mesh",
+    "category": "Object",
 }
 
 
